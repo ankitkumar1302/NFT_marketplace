@@ -7,6 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import com.example.nftmarketplace.home.HomeScreen
 import com.example.nftmarketplace.onboarding.OnBoardingScreen
 import com.example.nftmarketplace.ui.theme.NFTMarketplaceTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NFTMarketplaceTheme {
                 TransparentStatusBar {
-                    OnBoardingScreen()
+                    RootScreen()
                 }
             }
         }
