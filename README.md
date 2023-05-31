@@ -22,4 +22,4 @@ Added new themes and design to the jetpack compose,
 19) Intro to jetpack Fundamentals
 20) Updating our App's
 21) Added new things 
-Added StatsScreen
+<br>Added StatsScreen
