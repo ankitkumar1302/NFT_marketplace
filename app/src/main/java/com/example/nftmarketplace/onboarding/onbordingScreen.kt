@@ -28,12 +28,15 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.nftmarketplace.NavigationItem
 import com.example.nftmarketplace.R
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun OnBoardingScreen() {
+fun OnBoardingScreen(
+    navigationAction: () -> Unit
+) {
     Scaffold(modifier = Modifier) {
         Box {
             Image(
@@ -89,7 +92,7 @@ fun OnBoardingScreen() {
                             )
                             Spacer(modifier = Modifier.padding(bottom = 27.dp))
                             Button(
-                                onClick = { /*TODO*/ },
+                                onClick = navigationAction,
                                 shape = RoundedCornerShape(percent = 50),
                                 modifier = Modifier.border(
                                     width = 1.dp,
@@ -127,7 +130,9 @@ fun OnBoardingScreen() {
 @Preview(showBackground = true)
 @Composable
 fun CardPreview() {
-    OnBoardingScreen()
+    OnBoardingScreen {
+
+    }
 }
 
 

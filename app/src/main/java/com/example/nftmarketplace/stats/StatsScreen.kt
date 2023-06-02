@@ -75,7 +75,7 @@ fun StatsScreen() {
 //        backgroundColor = Color(33, 17, 52)
     ) {
         Column(
-            Modifier.padding(bottom = 5.dp)
+            Modifier.padding(bottom = 20.dp)
         ) {
             Spacer(modifier = Modifier.padding(35.dp))
             CustomTabComponent()

@@ -22,8 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NFTMarketplaceTheme {
                 TransparentStatusBar {
-//                    RootScreen()
-                    StatsScreen()
+                    RootScreen()
                 }
             }
         }
