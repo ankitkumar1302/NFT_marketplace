@@ -23,3 +23,39 @@ Added new themes and design to the jetpack compose,
 20) Updating our App's
 21) Added new things 
 <br>Added StatsScreen
+
+
+# NFT Marketplace UI
+
+The NFT Marketplace UI project is an Android application that showcases the user interface components for a Non-Fungible Token (NFT) marketplace using Jetpack Compose. The app provides a visually appealing and interactive experience for browsing and exploring NFTs.
+
+## Features
+
+- Browse NFTs: Users can explore a wide range of NFTs available on the marketplace. They can view details such as title, description, price, and the current owner of each NFT.
+
+- Interactive UI: The UI components provide a smooth and engaging experience with animations, transitions, and responsive layouts.
+
+- Search and Filter: Users can search for specific NFTs based on title, category, or artist. Additionally, they can apply filters to refine their search results based on attributes like price range, popularity, and more.
+
+## Getting Started
+
+1. Clone the repository:
+
+2. Open the project in Android Studio.
+
+3. Build and run the application on an Android device or emulator.
+
+## Dependencies
+
+The project utilizes the following dependencies:
+
+- Jetpack Compose: Modern UI toolkit for Android development.
+
+Check the `build.gradle` file for a complete list of dependencies.
+
+## Contributing
+
+Contributions to this project are welcome. Feel free to open issues or submit pull requests.
+
+ 
+
